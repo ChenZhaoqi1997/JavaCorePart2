@@ -1,6 +1,7 @@
 package com.company.ch1.collecting;
 
-import java.util.Map;
+import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -32,5 +33,36 @@ public class CollectingIntoMap {
     }
     public static void main(String[] args) {
         Map<Integer, String> idToName = people().collect(Collectors.toMap(Person::getId, Person::getName));
+        System.out.println(idToName);
+
+        Map<Integer, Person> idToPerson = people().collect(Collectors.toMap(Person::getId, Function.identity()));
+        System.out.println(idToPerson.getClass().getName() + idToPerson);
+
+        idToPerson = people().collect(Collectors.toMap(
+                Person::getId,
+                Function.identity(),
+                (oldValue, newValue) -> {throw new IllegalStateException();},
+                TreeMap::new
+        ));
+        System.out.println(idToPerson.getClass().getName() + idToPerson);
+
+        Stream<Locale> locales = Stream.of(Locale.getAvailableLocales());
+        Map<String, String> languageNames = locales.collect(Collectors.toMap(
+                Locale::getDisplayLanguage,
+                l -> l.getDisplayLanguage(l),
+                (oldValue, newValue) -> oldValue
+        ));
+        System.out.println(languageNames);
+
+        locales = Stream.of(Locale.getAvailableLocales());
+        Map<String, Set<String>> countryLanguageSet = locales.collect(Collectors.toMap(
+                Locale::getDisplayCountry,
+                l -> Collections.singleton(l.getDisplayLanguage()),
+                (a, b) -> {
+                    Set<String> union = new HashSet<>(a);
+                    union.addAll(b);
+                    return union;
+                }));
+        System.out.println(countryLanguageSet);
     }
 }
