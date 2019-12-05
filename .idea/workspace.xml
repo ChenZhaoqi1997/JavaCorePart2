@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682e6b77-1426-4f7d-8139-ba9f9f34fec0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCorePart2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch1/streams/CountLongWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch1/streams/CreatingStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ch1/streams2/CreatingStreams.java" afterDir="false" />
+    <list default="true" id="682e6b77-1426-4f7d-8139-ba9f9f34fec0" name="Default Changelist" comment="first commit">
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data_Structures_And_Algorithm_Analysis_In_Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Structures_And_Algorithm_Analysis_In_Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/CompositePatternDemo.java" beforeDir="false" />
@@ -29,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/observer/impl/ObserverPersonImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/observer/impl/Sport3DSubjectImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab08" beforeDir="false" afterPath="$PROJECT_DIR$/../lab08" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +33,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -62,7 +58,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UEpeljjLZw8yYSIovC7AlITHUa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -79,7 +77,33 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CollectingResults">
+    <configuration name="CollectingResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch1.collecting.CollectingResults" />
+      <module name="JavaCorePart2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ch1.collecting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatingStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch1.streams2.CreatingStreams" />
+      <module name="JavaCorePart2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ch1.streams2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="JavaCorePart2" />
@@ -90,6 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OptionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch1.optional.OptionalTest" />
+      <module name="JavaCorePart2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ch1.optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CollectingResults" />
+        <item itemvalue="Application.OptionalTest" />
+        <item itemvalue="Application.CreatingStreams" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -113,8 +157,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574931706037</updated>
-      <workItem from="1575514382529" duration="1000000" />
+      <workItem from="1575514382529" duration="8893000" />
+      <workItem from="1575537183114" duration="9179000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1575515437053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575515437053</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1575515558032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575515558032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1575519557500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575519557500</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit">
+      <created>1575519775847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575519775847</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1575529981809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575529981809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commit">
+      <created>1575550688441</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575550688441</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1575559398142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575559398142</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,21 +220,35 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="2" key="CommitChangelistDialog2" timestamp="1575515435923">
+    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1575553623745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="337" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575515435923" />
+    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575553623745" />
+    <state x="337" y="2" key="CommitChangelistDialog2" timestamp="1575559397254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="337" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575559397254" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1575514903996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575514903996" />
+    <state x="589" y="308" width="382" height="208" key="Github.CreateGistDialog" timestamp="1575526329386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="589" y="308" width="382" height="208" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1575526329386" />
     <state x="625" y="302" key="Github.ShareDialog" timestamp="1575515492803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -148,13 +257,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="113" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575514983604" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575515213368">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1575559417824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575515213368" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575515507305">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
+    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1575559417824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1575515507305" />
+    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
+    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1575559417824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1575559417824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575559400449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575559400449" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575540721524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1575540721524" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575550780876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1575550780876" />
+    <state x="512" y="203" key="git4idea.merge.GitMergeDialog" timestamp="1575559746042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="203" key="git4idea.merge.GitMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1575559746042" />
+    <state x="444" y="203" key="git4idea.merge.GitPullDialog" timestamp="1575550801064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1575550801064" />
+    <state x="542" y="276" key="git4idea.rebase.GitRebaseDialog" timestamp="1575550884462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="276" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1575550884462" />
   </component>
 </project>
