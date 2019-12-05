@@ -30,7 +30,7 @@ public class CreatingStreams {
         System.out.println();
     }
     public static void main(String[] args) throws IOException {
-        String address = "";
+        String address = "C:\\Users\\15101\\Desktop\\qqq.txt";
         Path path = Paths.get(address);
         String contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
 
