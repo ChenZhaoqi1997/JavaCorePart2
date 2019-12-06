@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682e6b77-1426-4f7d-8139-ba9f9f34fec0" name="Default Changelist" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data_Structures_And_Algorithm_Analysis_In_Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data_Structures_And_Algorithm_Analysis_In_Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/CompositePatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/bjy/c/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/bjy/c/OperationAdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/bjy/c/OperationMultiply.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/bjy/c/OperationSubstract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/bjy/c/Strategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/bjy/c/StrategyPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/observer/IObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/observer/ISubject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/observer/impl/ObserverPersonImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/observer/impl/Sport3DSubjectImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HeadFirstDesignPattern/src/com/zx/test/Test.java" beforeDir="false" />
+    <list default="true" id="682e6b77-1426-4f7d-8139-ba9f9f34fec0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/ch1/collecting/cities.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab08" beforeDir="false" afterPath="$PROJECT_DIR$/../lab08" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +63,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CollectingResults">
+  <component name="RunManager" selected="Application.CollectingIntoMap">
+    <configuration name="CollectingIntoMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ch1.collecting.CollectingIntoMap" />
+      <module name="JavaCorePart2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.ch1.collecting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CollectingResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ch1.collecting.CollectingResults" />
       <module name="JavaCorePart2" />
@@ -128,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectingIntoMap" />
         <item itemvalue="Application.CollectingResults" />
         <item itemvalue="Application.OptionalTest" />
         <item itemvalue="Application.CreatingStreams" />
@@ -158,7 +159,8 @@
       <updated>1574931706037</updated>
       <workItem from="1575514382529" duration="8893000" />
       <workItem from="1575537183114" duration="9179000" />
-      <workItem from="1575559629983" duration="258000" />
+      <workItem from="1575559629983" duration="2899000" />
+      <workItem from="1575610350030" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1575515437053</created>
@@ -216,11 +218,35 @@
       <option name="project" value="LOCAL" />
       <updated>1575559795255</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first commit">
+      <created>1575560001321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575560001321</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first commit">
+      <created>1575562061595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575562061595</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first commit">
+      <created>1575613559526</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575613559526</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -236,18 +262,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1575553623745">
+    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1575610579449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575553623745" />
-    <state x="337" y="2" key="CommitChangelistDialog2" timestamp="1575559793972">
+    <state x="520" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575610579449" />
+    <state x="337" y="2" key="CommitChangelistDialog2" timestamp="1575613557833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="337" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575559793972" />
+    <state x="337" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575613557833" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1575559872475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -264,30 +291,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="113" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575514983604" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1575559417824">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1575562620407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1575559417824">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575562620407" />
+    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1575562620407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1575559417824">
+    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575562620407" />
+    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1575562620407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1575559417824">
+    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575562620407" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1575562620407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575559417824" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575562620407" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1575562620401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575562620401" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1575562620401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575562620401" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1575562620401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575562620401" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1575562620401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575562620401" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1575559951600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575559951600" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575559400449">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1575613563911">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575559400449" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575613563911" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1575540721524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
